@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+   <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar" >
+       <!-- Customize your theme. -->
+       <item name="colorPrimary">@color/primary_purple</item>
+       <item name="colorPrimaryDark">@color/primary_dark_purple</item>
+       <item name="colorOnPrimary">@color/white</item>
+       <!-- Secondary brand color. -->
+       <item name="colorSecondary">@color/secondary_pink</item>
+       <item name="colorSecondaryVariant">@color/grey_purple</item>
+       <item name="colorOnSecondary">@color/white</item>
+       <item name="android:colorBackground">@color/secondary_pink</item>
+
+       <item name="colorNavigationItem">@color/menu_item_color_state</item>
+       <item name="colorNavigationItemSelected">@color/white</item>
+       <item name="drawableNavigationItemBackground">@drawable/menu_background_color_state</item>
+
+       <item name="android:spinnerDropDownItemStyle">@style/mySpinnerItemStyle</item>
+
+       <!--<item name="bottomSheetDialogTheme">@style/AppBottomSheetDialogTheme</item>-->
+
+   </style>
+
+    <style name="DatePicker" parent="Theme.AppCompat.DayNight.Dialog">
+        <item name="colorAccent">@color/primary_light_purple</item>
+    </style>
+
+    <style name="Widget.Custom.NavigationView" parent="Widget.Design.NavigationView">
+        <item name="itemIconTint">@color/white</item>
+        <item name="itemTextColor">@color/white</item>
+        <item name="itemBackground">@drawable/menu_background_color_state</item>
+
+    </style>
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/grey_purple</item>
+        <item name="colorControlActivated">@color/primary_dark_purple</item>
+    </style>
+
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+    </style>
+
+
+    <style name="mySpinnerItemStyle" parent="@android:style/Widget.Holo.DropDownItem.Spinner">
+        <item name="android:textColor">@color/primary_dark_purple</item>
+    </style>
+
+    <style name="mySwitch">
+        <item name="android:colorControlActivated">@color/secondary_pink</item>
+    </style>
+
+    <!--<style name="AppBottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+
+        <item name="bottomSheetStyle">@style/AppModalStyle</item>
+    </style>
+
+    <style name="AppModalStyle"
+        parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/filter_bg</item>
+    </style>-->
+
+</resources>
